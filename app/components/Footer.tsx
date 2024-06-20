@@ -1,16 +1,18 @@
-import * as React from "react";
+ 
+import React from "react";
 
 type Props = {};
+ 
 
 const Footer: React.FC<Props> = ({}) => {
   return (
     <div>
       <div style={{ gridRow: "auto" }}>
-        <h1>Portfolio Page</h1>
-        <h1>Portfolio Page2</h1>
-        <h1>Portfolio Page2</h1>
+        <h1>Edited by Suphalerk Lortaraprasert</h1>
+         
       </div>
     </div>
   );
 };
+
 export default Footer;
