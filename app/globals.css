@@ -13,6 +13,8 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --test: 255,255,255;
+    --red: 220,20,60;
   }
 }
 
@@ -26,7 +28,11 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-
+box {
+  color: rgb(var(--test));
+  background: rgb(var(--red));
+}
+ 
 @layer utilities {
   .text-balance {
     text-wrap: balance;

@@ -7,19 +7,19 @@ const Header: React.FC<Props> = ({}) => {
     <div>
       <div style={{ columnCount: "5" }}>
         <div>
-          <button>Home</button>
+          <button > <a href="./">Home</a></button>
         </div>
         <div>
-          <button>Resume/CV</button>
+          <button><a href="./ResumeAndCV">Resume/CV</a></button>
         </div>
         <div>
-          <button>School</button>
+          <button><a href="./Learn">Learn</a></button>
         </div>
         <div>
-          <button>Project</button>
+          <button><a href="./Project">Project</a></button>
         </div>
         <div>
-          <button>Contact</button>
+          <button><a href="./CareerPath">CareerPath</a></button>
         </div>
       </div>
     </div>
